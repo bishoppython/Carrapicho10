@@ -99,6 +99,21 @@
             display: inline-block;
             position: relative;
           }
+          @keyframes neon{
+            from{
+              filter: drop-shadow(0 0 0 var(--cor-neon));
+            }
+            to {
+              filter: drop-shadow(0 0 30px var(--cor-neon));
+            }
+          }
+
+          img{
+            animation: neon 3s alternate infinite ease-in-out;
+          }
+          .img-bolacha{
+            --cor-neon: #ffffff;
+          }
           </style>
         <div class="social-links" class="d-flex flex-column">
           <a href="https://www.facebook.com/CARRAPICHOE10/" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -496,7 +511,7 @@
   <footer id="footer">
     <div class="container">
       <div class="box1">
-        <img src="assets/img/logo.png" class="img-fluid" alt="">
+        <img src="assets/img/logo.png" class="img-bolacha" alt="">
       </div>
       <br><br><br><br>
       <div class="social-links">
