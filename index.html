@@ -55,10 +55,11 @@
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100"><br><br><br><br><br><br>
       <div class="tamanda">
-        <p>Tamandaré <span class="typed" data-typed-items="#Livre, #É 10!, #Do Povo e para o Povo, #Segue o Líder - É 10!"></span></p>
+        <p>Tamandaré<span class="typed" data-typed-items="#Livre, #É 10!, #Do Povo e para o Povo, #Segue o Líder - É 10!"></span></p>
       </div>
       <div class="box">
-        <img src="assets/img/logo.png" class="img-fluid" alt="">
+        <!--img src="assets/img/logo.png" class="img-fluid" alt=""-->
+        <img src="assets/img/logo.png" class="img-fluid" alt="neon">
       </div>
       <div class="box1">
         <!--img src="assets/img/Carrapicho_Mundinho.png"  class="img-fluid" alt=""-->
@@ -76,6 +77,21 @@
             height: 100px;
 
           }
+          @keyframes neon{
+            from{
+              filter: drop-shadow(0 0 0 var(--cor-neon));
+            }
+            to {
+              filter: drop-shadow(0 0 30px var(--cor-neon));
+            }
+          }
+
+          img{
+            animation: neon 3s alternate infinite ease-in-out;
+          }
+          .img-fluid{
+            --cor-neon: #0004ff;
+          }
           div.box1 {
             width: 350px;
             height: 100px;
@@ -85,9 +101,8 @@
           }
           </style>
         <div class="social-links" class="d-flex flex-column">
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+          <a href="https://www.facebook.com/CARRAPICHOE10/" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/carrapicho_honorato/" class="instagram"><i class="bx bxl-instagram"></i></a>
         </div>
       </div>
   </section><!-- End Hero -->
@@ -196,16 +211,18 @@
             <h3 class="resume-title">TURISMO, ESPORTE E CULTURA</h3>
               <h4>Propostas</h4>
               <ul>
-                <li>AMPLIAR A OFERTA DO PROGRAMA CRAS PARA BENEFICIAR A COMUNIDADE MUNICIPAL.</li>
-                  <li>CRIAÇÃO DE UM CRAS EM SANTO ANDRÉ.</li>
-                  <li>CRIAÇÃO DE UM CENTRO DE ATENDIMENTO A PESSOAS DEPENDENTE QUIMICA.</li>
-                  <li>PROMOVERA INTEGRAÇÃO DA MELHORIDADE NAS ATIVIDADES ESPORTIVAS, CULTURAIS ETC.</li>
-                  <li>IMPLANTAR PROGRAMA DE ATENDIMENTO NOS BAIRROS, COMO FERECIMENTO DE SERVIÇOS AO CAMPO E CIDADE.</li>
-                  <li>FORTALECIMENTO A QUALIDADE DE CAPACITAÇÃO DE PROFISSIOANAIS.</li>
-                  <li>CRIAÇÃO DA DIRETORIA DA MULHER</li>
-                  <li>CRIAÇÃO DO CONSELHO MUNICIPAL DA JUVENTUDE.</li>
-                  <li>CRIAÇÃO DE BANCO DE DADOS PARA DIVERSAS PROFISSÕES E JOVENS PROCURANDO O PRIMEIRO EMPREGO.</li>
-                  <li>INTENSIFICAR O TRABALHO JUNTO AO CONSELHO TUTELAR</li>
+                <li>PROMOVER A DIVULGAÇÃO DOS LOCAIS E ATRATIVOS TURÍSTICOS DO MUNICÍPIO.</li>
+                <li>ELABORAR CALENDÁRIO DE EVENTOS TURÍSTICOS, CULTURAL E ESPORTIVOS ANUAIS, COM A PARTICIPAÇÃO DA JUVENTUDE.</li>
+                <li>CRIAÇÃO DE CIRCUITO DE INVERNO.</li>
+                <li>DESCENTRALIZAÇÃO DOS FESTEJOS JUNINOS E CRIAÇÃO DE POLOS EM OUTRAS LOCALIDADES.</li>
+                <li>CONSTRUÇÃO DO CLUBE MUNICIPAL E REFORMADO CLUBE NA VILA SAUE.</li>
+                <li>DIVULGAÇÃO DAS PONTENCIALIDADES TURÍSTICAS A NÍVEL NACIONAL E INTERNACIONAL.</li>
+                <li>CRIAÇÃO DE EVENTOS GASTRONÔMICOS NA ÁREA URBANA E RURAL.</li>
+                <li>CAPACITAÇÃO DE TÉCNICOS VOLTADOS AO TURISMO.</li>
+                <li>CRIAÇÃO DE PROGRAMA DE ARTE E CINEMA AO AR-LIVRE.</li>
+                <li>MANTER TODOS OS FESTEJOS E EVENTOS TRADICIONAIS DA VILA SAUE.</li>
+                <li>PROMOVER EVENTOS NA ÁREA DE CULTURA.</li>
+                <li>CRIAÇÃO DE UMA CICLOVIA</li>
               </ul>
           </div>
         </div>
@@ -216,7 +233,7 @@
               <ul>
                 <li>COMPROMISSO DE GARANTIR MÉDICO NO HOSPITAL MUNICIPAL TODOS OS DIAS.
                 <li>ATENDIMENTO DE QUALIDADE A TODA POPULAÇÃO MUNICIPAL</li>
-                <li>CRIAÇÃO DE PLANO DE CARGOS E CARREIRAS DOS PROFISSIONAIS DA SAÚDE</li>>
+                <li>CRIAÇÃO DE PLANO DE CARGOS E CARREIRAS DOS PROFISSIONAIS DA SAÚDE</li>
                   <li>AMBULÂCIA BEM EQUIPADA PARA O SOCORRO DA ZONA RURAL, AUMENTAR A FROTA DE TRANSPORTE DA SAÚDE NA ZONA RURAL.</li>
                   <li>CRIAÇÃO DE UMA UBS NO DESTRITO DE SANTO ANDRÉ.</li>
                   <li>APARELHAMENTO DAS UNIDADES DE SAÚDE NO MUNICIPIO.</li>
@@ -233,7 +250,7 @@
               <h4>Propostas</h4>
               <ul>
                 <li>REVISÃO DO PLANO DE CARGOS E CARREIRAS COM A CORREÇÃO DOS SALÁRIOS DOS PROFESSORES DE ACORDO COM O PLANO DE CARGOS E CARREIRAS.
-                  <li>PROMOVER A FORMAÇÃO E CAPACITAÇÃO DOS PROFESSORES E EQUIPE PEDAGÓGICA E ADMINISTRATIVA.</li>>
+                  <li>PROMOVER A FORMAÇÃO E CAPACITAÇÃO DOS PROFESSORES E EQUIPE PEDAGÓGICA E ADMINISTRATIVA.</li>
                   <li>BUSCAR GARANTIA DE MERENDA EM 12 MESES DE QUALIDADE, E MELHORAR FARDAMENTO E MATERIAL ESCOLAR.</li>
                   <li>BUSCA DA IMPLANTAÇÃO PARA UMA FACULDADE NO MUNICIPIO.</li>
                   <li>MELHORAR A FROTA DE TRANSPORTE ESCOLAR PARA DAR MAIOR SEGURANÇA E QUALIDADE DEVIDA AOS NOSSOS ALUNOS DA REDE PÚBLICA DO MUNICIPIO.</li>
@@ -250,7 +267,7 @@
                 <ul>
                   <li>AMPLIAR A OFERTA DO PROGRAMA CRAS PARA BENEFICIAR A COMUNIDADE MUNICIPAL.</li>
                     <li>CRIAÇÃO DE UM CRAS EM SANTO ANDRÉ.</li>
-                    <li>CRIAÇÃO DE UM CENTRO DE ATENDIMENTO A PESSOAS DEPENDENTE QUIMICA.</li>>
+                    <li>CRIAÇÃO DE UM CENTRO DE ATENDIMENTO A PESSOAS DEPENDENTE QUIMICA.</li>
                     <li>PROMOVER A INTEGRAÇÃO DA MELHORIDADE NAS ATIVIDADES ESPORTIVAS, CULTURAIS ETC.</li>
                     <li>IMPLANTAR PROGRAMA DE ATENDIMENTO NOS BAIRROS, COM OFERECIMENTO DE SERVIÇOS AO CAMPO E CIDADE.</li>
                     <li>FORTALECIMENTOAQUALIDADEDECAPACITAÇÃODEPROFISSIOANAIS.</li>
@@ -271,19 +288,19 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>NOTICIAS</h2>
-          <p>Acompanhe abaixo as últimas notícias da nossa caminhada para Vitória!</p>
+          <h2>GALERIA DO POVO!!</h2>
+          <p>Acompanhe abaixo o motivo da nossa caminhada para Vitória!</p>
           <h3><font color="Blue"><strong>É 10! AGORA É TAMANDARÉ LIVRE!</strong></font></h3>
         </div>
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
+            <!--ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-card">Card</li>
               <li data-filter=".filter-web">Web</li>
-            </ul>
+            </ul-->
           </div>
         </div>
 
@@ -291,12 +308,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/banner.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 1</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/WhatsApp Image 2020-10-21 at 18.07.33.jpeg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -305,12 +322,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/WhatsApp Image 2020-10-21 at 17.42.34.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/IMG_9367.JPG" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -319,12 +336,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/IMG_9363.JPG" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/_MG_9202.JPG" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -333,12 +350,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/_MG_9227.JPG" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/_MG_9230.JPG" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -347,12 +364,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/_MG_9231.JPG" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/_MG_9245.JPG" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -361,12 +378,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/_MG_9254.JPG" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 3</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/_MG_9267.JPG" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -375,12 +392,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/_MG_9287.JPG" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 1</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/_MG_9293.JPG" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -389,12 +406,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="assets/img/_MG_9296.JPG" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 3</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/IMG_9208.JPG" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -403,12 +420,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/IMG_9363.JPG" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/IMG_9367.JPG" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" data-gall="portfolioDetailsGallery" data-vbtype="iframe" class="venobox" title="Portfolio Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
@@ -433,46 +450,41 @@
           <div class="col-lg-6">
             <div class="info">
               <div class="address">
-                <i class="icofont-google-map"></i>
-                <h4>Comitê:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <div class="instagram">
+                  <i class="icofont-instagram"></i>
+                  <h4>Instagram:<a href="https://www.instagram.com/carrapicho_honorato/">@CARRAPICHOE10</a></h4>
+                </div>
               </div>
+            </div>
 
-              <div class="email">
-                <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>contato@carrapicho10.com.br</p>
+          <br>
+            <div class="info">
+              <div class="address">
+                <div class="facebook">
+                  <i class="icofont-facebook"></i> 
+                  <h4>Facebook:<a href="https://www.facebook.com/CARRAPICHOE10/">facebook/carrapichoe10</a></h4>
+                </div>
               </div>
-
-              <div class="phone">
-                <i class="icofont-phone"></i>
-                <h4>whatsapp</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
+            </div>
           </div>
-        </div>
-              <br>
+          <br>
             <div class="row mt-1">
               <div class="col-lg-12">
                 <div class="info">
                   <div class="address">
                     <i class="icofont-google-map"></i>
                     <h4>Comitê:</h4>
-                    <p>A108 Adam Street, New York, NY 535022</p>
+                    <p><a href="https://www.google.com/maps/place/8%C2%B044'44.8%22S+35%C2%B006'09.5%22W/@-8.7457783,-35.1048304,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d-8.7457783!4d-35.1026417?hl=pt-BR">Praia de Tamandaré, Tamandaré - PE, 55578-000</a></p>
                   </div>
-    
-                  <div class="email">
-                    <i class="icofont-instagram"></i>
-                    <h4>Instagram:</h4>
-                    <p>contato@carrapicho10.com.br</p>
+                  <br>
+                  <div class="info">
+                    <div class="address">    
+                      <div class="instagram">
+                      <i class="icofont-instagram"></i>
+                      <h4>Instagram:<a href="https://www.instagram.com/mundinhotamandare10/">mundinhotamandare10</a>@</h4>
+                      </div>
+                    </div>
                   </div>
-    
-                  <div class="phone">
-                    <i class="icofont-phone"></i>
-                    <h4>whatsapp</h4>
-                    <p>+1 5589 55488 55s</p>
-                  </div>
-
             </div>
           
           
@@ -488,8 +500,8 @@
       </div>
       <br><br><br><br>
       <div class="social-links">
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.facebook.com/CARRAPICHOE10/" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/carrapicho_honorato/" class="instagram"><i class="bx bxl-instagram"></i></a>
       </div>
       <div class="copyright">
         &copy; Copyright <strong><span>Carrapicho|Mundinho</span></strong>. All Rights Reserved
@@ -499,7 +511,6 @@
       </div>
     </div>
   </footer><!-- End Footer -->
-
   <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
   <div id="preloader"></div>
 
